@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from 'react-router-dom'
-import { Navbar } from '@/components'
+import { Navbar, Title } from '@/components'
 
 export const PrivateRoute = () => {
   const auth = localStorage.getItem('isLoggedIn')
@@ -7,7 +7,8 @@ export const PrivateRoute = () => {
     return (
       <main className='my-4'>
         <Navbar />
-        <div className='mx-10'>
+        <Title />
+        <div className='mx-10 md:mx-40'>
           { children }
         </div>
       </main>

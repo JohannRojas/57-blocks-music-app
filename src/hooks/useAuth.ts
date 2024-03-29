@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 
 export const useAuth = () => {
 
-
   const navigate = useNavigate()
 
   const getAccessToken = (route: string) => {
@@ -12,7 +11,7 @@ export const useAuth = () => {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: `grant_type=client_credentials&client_id=${import.meta.env.CLIENT_ID}&client_secret=${import.meta.env.CLIENT_SECRET}`,
+      body: `grant_type=client_credentials&client_id=${import.meta.env.VITE_CLIENT_ID}&client_secret=${import.meta.env.VITE_CLIENT_SECRET}`,
     }
     fetch('https://accounts.spotify.com/api/token', authParams)
       .then(res => res.json())

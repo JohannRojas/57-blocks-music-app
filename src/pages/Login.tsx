@@ -2,7 +2,7 @@ import { z } from "zod"
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
-import { Card, CardHeader, CardContent, FormField, FormItem, Form, FormLabel, FormControl, Input, FormMessage, Button } from '@/components'
+import { Card, CardHeader, CardContent, FormField, FormItem, Form, FormLabel, FormControl, Input, FormMessage, Button, Title } from '@/components'
 import { useAuth } from '@/hooks/useAuth'
 
 const formSchema = z.object({
@@ -37,7 +37,8 @@ export const Login = () => {
 
 
   return (
-    <div className='grid place-items-center h-screen bg-black'>
+    <div className='grid place-items-center h-screen bg-black justify-center content-center gap-8'>
+      <Title />
       <Card className='w-2/5 min-w-96'>
         <CardHeader>Login</CardHeader>
         <CardContent>
@@ -63,7 +64,7 @@ export const Login = () => {
                   <FormItem>
                     <FormLabel>password</FormLabel>
                     <FormControl>
-                      <Input placeholder="password" { ...field } />
+                      <Input placeholder="password" { ...field } type='password' />
                     </FormControl>
                     <FormMessage />
                   </FormItem>

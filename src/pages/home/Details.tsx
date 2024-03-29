@@ -42,8 +42,8 @@ export const Details = () => {
       <Button onClick={ () => navigate(-1) } className='text-white'>
         <ArrowLeft color="#fff" strokeWidth={ 1.75 } />
       </Button>
-      <main className=' gap-10 mt-10'>
-        <section className='md:w-[24rem] mb-10 flex flex-col justify-center items-center'>
+      <main className=' gap-10 mt-10 md:flex'>
+        <section className='md:w-[24rem] mb-10 flex flex-col justify-center items-center md:justify-start'>
 
           <img src={ albumInfo?.images[0].url } alt="Album Image" className='size-60 rounded-lg shadow-xl mb-4 hover:scale-105 flex transition-all hover:contrast-125 hover:shadow-2xl aspect-square' />
           <h1 className='text-4xl text-white'>Album: { albumInfo?.name }</h1>

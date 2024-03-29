@@ -122,8 +122,9 @@ export const Dashboard = () => {
   return (
     <main className='flex flex-col'>
       <div>
+
         <form onSubmit={ searchMusic } className='mt-4'>
-          <Search className='absolute left-12 top-20' />
+          <Search className='absolute left-12 top-[10rem] md:left-[11rem]' />
           <Input onChange={ (e) => setSearch(e.target.value) } placeholder='Search music...' className='pl-[2.75rem]' />
         </form>
       </div>
