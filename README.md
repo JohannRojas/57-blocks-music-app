@@ -1,3 +1,5 @@
+[**video demostrativo**](https://res.cloudinary.com/dgaj4guee/video/upload/v1711677888/Screen_Recording_Mar_28_k4a7ai.mp4)
+
 This is a [**React**](https://reactnative.dev) project, bootstrapped using [`vite`](https://vitejs.dev/).
 
 ### This App was developed for Interview
@@ -11,6 +13,13 @@ This is a [**React**](https://reactnative.dev) project, bootstrapped using [`vit
 ```
 
 **Note**: You need to create .env file and add your clientID and client secret ID for spotify Api
+
+like this:
+
+```
+  VITE_CLIENT_ID=your client id
+  VITE_CLIENT_SECRET=Your client secret id
+```
 
 ## Step 1: Install your dependencies
 
