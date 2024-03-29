@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1rem;
+  --card: 0, 0%, 100%;
+
+  --background: 0, 0%, 100%;
+
+  --destructive: 0, 100%, 63%;
+
+  --secondary: 0, 0%, 97%;
+
+  --dark-background: 0, 0%, 10%;
+  --dark-card: 0, 0%, 30%;
+  --dark-destructive: 0, 100%, 63%;
+  --dark-secondary: 0, 0%, 60%;
+}
+
+body {
+  background-color: hsl(var(--dark-background));
+}
+
+.card {
+  background-color: hsl(var(--dark-card));
+}
+
+.button-destructive {
+  background-color: hsl(var(--dark-destructive));
+}
+
+.button-secondary {
+  background-color: hsl(var(--dark-secondary));
+}
