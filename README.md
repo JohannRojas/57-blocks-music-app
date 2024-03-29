@@ -12,7 +12,7 @@ This is a [**React**](https://reactnative.dev) project, bootstrapped using [`vit
   git clone https://github.com/JohannRojas/57-blocks-music-app.git
 ```
 
-**Note**: You need to create .env file and add your clientID and client secret ID for spotify Api
+**Note**: You need to create .env file and add your clientID and client secret ID for [spotify Api](https://developer.spotify.com/documentation/web-api)
 
 like this:
 
