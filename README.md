@@ -1,4 +1,8 @@
-[**video demostrativo**](https://res.cloudinary.com/dgaj4guee/video/upload/v1711677888/Screen_Recording_Mar_28_k4a7ai.mp4)
+
+
+
+https://github.com/JohannRojas/57-blocks-music-app/assets/32345338/043311bb-024f-4ffb-85ed-423089cdfe71
+
 
 This is a [**React**](https://reactnative.dev) project, bootstrapped using [`vite`](https://vitejs.dev/).
 
